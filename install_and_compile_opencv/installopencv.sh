@@ -3,6 +3,8 @@ sudo apt update && sudo apt upgrade
 #Stolen from and fixed up from: 
 #https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
 
+#make sure you give it run permission with sudo chmod +x installopencv.sh
+
 sudo apt install build-essential cmake git pkg-config libgtk-3-dev
     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
     libxvidcore-dev libx264-dev libjpeg-dev libpng-dev libtiff-dev
